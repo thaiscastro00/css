@@ -1,0 +1,93 @@
+a {
+  color: black;
+}
+
+a:hover {
+  color: #FFFFFF;
+}
+
+body {
+  background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(255, 229, 168, 1) 0%, rgba(251, 174, 222, 1) 100.7%);
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+}
+
+h1 {
+  color: black;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: 'Sacramento', cursive;
+  font-size: 100px;
+}
+
+h2 {
+  font-family: 'Crimson Text', serif;
+}
+
+h3 {
+  font-family: 'Crimson Text', serif;
+}
+
+p {
+  margin-top: 0;
+  line-height: 2;
+}
+
+.copyright {
+  font-size: 18px
+}
+
+.picture {
+  padding-top: 20px;
+  height: 300px;
+  width: 300px
+}
+
+.monitor {
+  height: 280px;
+  width: 280px;
+}
+
+.top-container {
+  position: relative;
+  padding-top: 50px;
+}
+
+/*.btn {
+  font-family: 'Crimson Text', serif;
+}*/
+
+.btn {
+
+   background: #D7C637;
+   background-image: -webkit-linear-gradient(top, #D7C637, #E131BD);
+   background-image: -moz-linear-gradient(top, #D7C637, #E131BD);
+   background-image: -ms-linear-gradient(top, #D7C637, #E131BD);
+   background-image: -o-linear-gradient(top, #D7C637, #E131BD);
+   background-image: -webkit-gradient(to bottom, #D7C637, #E131BD);
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   border-radius: 10px;
+   color: white;
+   font-family: Brush Script MT;
+   font-size: 20px;
+   font-weight: 100;
+   padding: 15px;
+   text-shadow: 1px 0 15px #000000;
+   border: solid #0059A0 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+
+}
+
+.btn:hover {
+   background: #FFFFFF;
+   border: solid #FFFFFF 1px;
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   border-radius: 10px;
+   text-decoration: none;
+}
